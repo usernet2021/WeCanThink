@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(https://i.pinimg.com/originals/ff/ce/89/ffce8945da70b024c6045f90b88b0670.gif);
+	background-size: 100%; 		/размер 100%/
+	background-attachment: fixed;
+	background-repeat: repeat-x;	
+}
+#form {
+	background: rgba(0, 0, 139, 0.5);
+	width: 400px;
+	padding: 12px 20px;
+	border-radius: 25px;
+	font-family: Snap ITC;
+	margin: 100px auto;
+}
+form {
+	color: skyblue;
+	
+}
+input {
+	width: 400px;
+	  
+	
+	display: block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 15px;
+}
+
+input{
+
+	color: darkblue;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	background: white;
+}
+
+
+
+div input{
+  border-radius: 5px;
+  background-color: lightblue;
+  padding: 20px;
+}
+
+#submit {
+	background: darkblue;
+	border: 3px solid skyblue;
+	color: skyblue;
+}
+
+
+.decor {
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background: darkblue;
+	float: left;
+	margin: 5px 5px;
+	border: 3px solid black;
+}
+.color2 {
+	background: blue;
+} 
+.color3 {
+	background: skyblue;
+}
+.textcolor {
+	padding: 10px 20px;
+	color: skyblue;
+	font-size: 25px;
+	font-family: Snap ITC;
+}

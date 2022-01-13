@@ -1,0 +1,577 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#block {
+	margin: 0 auto;
+	width: 300px;
+	height: 300px;
+	background: green;
+}
+@media screen and (max-width:  320px) {
+	body {
+		margin: 0;
+		padding: 0;
+		background: #000;
+
+	}
+	#block {
+		background: #000;
+		width: 300px;
+		height: 400px;
+		margin: 10px auto;
+		border: 3px solid black;
+	}
+	.beforedecor {
+
+		height: 26px;
+		border-bottom: 3px solid black;
+	}
+	.decor {
+		height: 10px;
+		width: 10px;
+		border-radius: 50%;
+		background: darkblue;
+		float: left;
+		margin: 5px 5px;
+		border: 3px solid black;
+	}
+	.color2 {
+		background: blue;
+	} 
+	.color3 {
+		background: skyblue;
+	}
+	.afterdecor {
+		display: block;
+		height: 300px;
+		margin: 10px auto;
+	}
+	.gradient-text {
+		background: darkblue;
+		padding: 10px 20px;
+		font-size: 10px;
+		color: skyblue;
+		text-decoration: none;
+
+	}
+	@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+	.gradient-text {
+	  font-family: 'Rubik One', sans-serif;
+	  font-size: 50px;
+	  text-transform: uppercase;
+	  background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	  color: #0B2349;
+	  display: table;
+	  margin: 0px auto;
+	  border: 3px solid skyblue;
+	  border-radius: 50px;-
+	}
+
+
+
+
+}
+@media screen and (max-width:  375px) and (min-width: 321px){
+	body {
+		margin: 0;
+		padding: 0;
+		background: #000;
+
+	}
+	#block {
+		background: #000;
+		width: 355px;
+		height: 400px;
+		margin: 10px auto;
+		border: 3px solid black;
+	}
+	.beforedecor {
+
+		height: 26px;
+		border-bottom: 3px solid black;
+	}
+	.decor {
+		height: 10px;
+		width: 10px;
+		border-radius: 50%;
+		background: darkblue;
+		float: left;
+		margin: 5px 5px;
+		border: 3px solid black;
+	}
+	.color2 {
+		background: blue;
+	} 
+	.color3 {
+		background: skyblue;
+	}
+	.afterdecor {
+		display: block;
+		height: 300px;
+		width: 300px;
+		margin: 0px auto;
+	}
+	.gradient-text {
+		background: darkblue;
+		padding: 20px 30px;
+		font-size: 20px;
+		color: skyblue;
+
+	}
+	@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+	.gradient-text {
+	  font-family: 'Rubik One', sans-serif;
+	  font-size: 50px;
+	  text-transform: uppercase;
+	  background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	  color: #0B2349;
+	  display: table;
+	  margin: 0px auto;
+	  border: 3px solid skyblue;
+	  border-radius: 50px;-
+	}
+	
+
+
+}
+@media screen and (max-width:  425px) and (min-width: 376px){
+	body {
+		margin: 0;
+		padding: 0;
+		background: #000;
+
+	}
+	#block {
+		background: #000;
+		width: 405px	;
+		height: 400px;
+		margin: 10px auto;
+		border: 3px solid black;
+	}
+	.beforedecor {
+
+		height: 26px;
+		border-bottom: 3px solid black;
+	}
+	.decor {
+		height: 10px;
+		width: 10px;
+		border-radius: 50%;
+		background: darkblue;
+		float: left;
+		margin: 5px 5px;
+		border: 3px solid black;
+	}
+	.color2 {
+		background: blue;
+	} 
+	.color3 {
+		background: skyblue;
+	}
+	.afterdecor {
+		display: block;
+		height: 300px;
+		width: 300px;
+		margin: 0px auto;
+	}
+	.gradient-text {
+		background: darkblue;
+		padding: 20px 30px;
+		font-size: 20px;
+		color: skyblue;
+
+	}
+	@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+	.gradient-text {
+	  font-family: 'Rubik One', sans-serif;
+	  font-size: 50px;
+	  text-transform: uppercase;
+	  background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	  color: #0B2349;
+	  display: table;
+	  margin: 0px auto;
+	  border: 3px solid skyblue;
+	  border-radius: 50px;-
+	}
+	
+
+
+}
+@media screen and (max-width:  768px) and (min-width: 426px){
+	body {
+		margin: 0;
+		padding: 0;
+		background: #000;
+	}
+	#block {
+		background: rgb(0, 0, 0, 0);
+		width: 748px;
+		height: 400px;
+		margin: 10px auto;
+		
+	}
+	.beforedecor {
+
+		height: 26px;
+		border-bottom: 3px solid black;
+	}
+	.decor {
+		height: 10px;
+		width: 10px;
+		border-radius: 50%;
+		background: darkblue;
+		float: left;
+		margin: 5px 5px;
+		border: 3px solid black;
+	}
+	.color2 {
+		background: blue;
+	} 
+	.color3 {
+		background: skyblue;
+	}
+	
+	.afterdecor {
+		display: block;
+		height: 300px;
+		width: 300px;
+		
+		margin: 0px auto;		
+		}
+	.gradient-text {
+		background: darkblue;
+		padding: 20px 30px;
+		font-size: 20px;
+		color: skyblue;
+
+
+	}
+	@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+	.gradient-text {
+	  font-family: 'Rubik One', sans-serif;
+	  font-size: 50px;
+	  text-transform: uppercase;
+	  background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	  color: #0B2349;
+	  display: table;
+	  margin: 0px auto;
+	  border: 3px solid skyblue;
+	  border-radius: 50px;
+
+	}
+	
+
+
+}
+@media screen and (max-width:  1024px) and (min-width: 769px){
+	body {
+		margin: 0;
+		padding: 0;
+		background: #000;
+	}
+	#block {
+		background: rgb(0, 0, 0, 0);
+		width: 1004px;
+		height: 500px;
+		margin: 10px auto;
+		
+	}
+	.beforedecor {
+
+		height: 26px;
+		border-bottom: 3px solid black;
+	}
+	.decor {
+		height: 10px;
+		width: 10px;
+		border-radius: 50%;
+		background: darkblue;
+		float: left;
+		margin: 5px 5px;
+		border: 3px solid black;
+	}
+	.color2 {
+		background: blue;
+	} 
+	.color3 {
+		background: skyblue;
+	}
+	
+	.afterdecor {
+		display: block;
+		height: 500px;
+		width: 500px;
+		margin: 0px auto;		
+	}
+	.gradient-text {
+		background: darkblue;
+		padding: 20px 30px;
+		font-size: 20px;
+		color: skyblue;
+		background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+	}
+	@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+	.gradient-text {
+	  font-family: 'Rubik One', sans-serif;
+	  font-size: 50px;
+	  text-transform: uppercase;
+	  background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	  color: #0B2349;
+	  display: table;
+	  margin: 0px auto;
+	  border: 3px solid skyblue;
+	  border-radius: 50px;
+	}
+}
+@media screen and (max-width:  1440px) and (min-width: 1025px) {
+	body {
+		margin: 0;
+		padding: 0;
+		background: #000;
+	}
+	#block {
+		background: rgb(0, 0, 0, 0);
+		width: 1420px;
+		height: 588px;
+		margin: 10px auto;
+		
+	}
+	.beforedecor {
+
+		height: 26px;
+		border-bottom: 3px solid black;
+	}
+	.decor {
+		height: 10px;
+		width: 10px;
+		border-radius: 50%;
+		background: darkblue;
+		float: left;
+		margin: 5px 5px;
+		border: 3px solid black;
+	}
+	.color2 {
+		background: blue;
+	} 
+	.color3 {
+		background: skyblue;
+	}
+	.afterdecor {
+		display: block;
+		height: 400px;
+		width: 400px;
+		
+		margin: 0px auto;		
+		}
+	.gradient-text {
+		background: darkblue;
+		padding: 10px 30px;
+		font-size: 15px;
+		color: skyblue;
+	}
+	@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+	.gradient-text {
+	  font-family: 'Rubik One', sans-serif;
+	  font-size: 50px;
+	  text-transform: uppercase;
+	  background: linear-gradient(45deg,#0B2349  33%, #0D61BC 66%, #8AA9D6);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	  color: #0B2349;
+	  display: table;
+	  margin: 0px auto;
+	  border: 3px solid skyblue;
+	  border-radius: 50px;
+	  
+	}	
+}
+@media screen and (max-width:  1920px) and (min-width: 1080px) {
+	body {
+		margin: 0;
+		padding: 0;
+		background: #000;
+	}
+	#block {
+		background: rgb(0, 0, 0, 0);
+		width: 1900px;
+		height: 780px;
+		margin: 10px auto;
+		
+	}
+	.beforedecor {
+
+		height: 26px;
+		border-bottom: 3px solid black;
+	}
+	.decor {
+		height: 10px;
+		width: 10px;
+		border-radius: 50%;
+		background: darkblue;
+		float: left;
+		margin: 5px 5px;
+		border: 3px solid black;
+	}
+	.color2 {
+		background: blue;
+	} 
+	.color3 {
+		background: skyblue;
+	}
+	.textcolor {
+		padding: 10px 20px;
+		color: skyblue;
+		font-size: 25px;
+		font-family: Snap ITC;
+	}
+	.afterdecor {
+		display: block;
+		height: 700px;
+		width: 700px;
+		
+		margin: 0px auto;		
+		}
+	.gradient-text {
+		background: darkblue;
+		margin: 0px auto;
+		padding: 20px 40px;
+		font-size: 15px;
+		color: skyblue;
+		font-family: Snap ITC;
+		
+	}
+	@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+	.gradient-text {
+	  font-family: 'Rubik One', sans-serif;
+	  font-size: 40px;
+	  text-transform: uppercase;
+	  background: linear-gradient(45deg,skyblue  33%, #0D61BC 66%, #8AA9D6);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	  color: #0B2349;
+	  display: table;
+	  margin: 0px auto;
+	  border: 3px solid skyblue;
+	  border-radius: 50px;
+	  font-family: Snap ITC;
+	  
+	}
+
+	
+	@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+	.gradient-text:hover{
+	  font-family: 'Rubik One', sans-serif;
+	  font-size: 40px;
+	  text-transform: uppercase;
+	  background: #00FFFF;
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	  color: #0B2349;
+	  display: table;
+	  margin: 0px auto;
+	  border: 3px solid #00FFFF;
+	  border-radius: 50px;
+	  font-family: Snap ITC;
+	  
+	}	
+}
+@media screen and (max-width:  2560px) and (min-width: 1921px) {
+	body {
+		margin: 0;
+		padding: 0;
+		background: #000;
+	}
+	#block {
+		background: rgb(0, 0, 0, 0);
+		width: 2540px;
+		height: 780px;
+		margin: 10px auto;
+		
+	}
+	.beforedecor {
+
+		height: 26px;
+		border-bottom: 3px solid black;
+	}
+	.decor {
+		height: 10px;
+		width: 10px;
+		border-radius: 50%;
+		background: darkblue;
+		float: left;
+		margin: 5px 5px;
+		border: 3px solid black;
+	}
+	.color2 {
+		background: blue;
+	} 
+	.color3 {
+		background: skyblue;
+	}
+	.textcolor {
+		padding: 10px 20px;
+		color: skyblue;
+		font-size: 25px;
+		font-family: Snap ITC;
+	}
+	.afterdecor {
+		display: block;
+		height: 700px;
+		width: 700px;
+		
+		margin: 0px auto;		
+		}
+	.gradient-text {
+		background: darkblue;
+		margin: 0px auto;
+		padding: 20px 40px;
+		font-size: 15px;
+		color: skyblue;
+		font-family: Snap ITC;
+		
+	}
+	@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+	.gradient-text {
+	
+	  font-size: 50px;
+	  text-transform: uppercase;
+	  background: linear-gradient(45deg,skyblue  33%, #0D61BC 66%, #8AA9D6);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	  color: #0B2349;
+	  display: table;
+	  margin: 0px auto;
+	  border: 3px solid skyblue;
+	  border-radius: 50px;
+	  font-family: Snap ITC;
+	  
+	}
+
+	
+	@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+	.gradient-text:hover{
+	  font-family: 'Rubik One', sans-serif;
+	  font-size: 50px;
+	  text-transform: uppercase;
+	  background:  #00FFFF;
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	  color: #0B2349;
+	  display: table;
+	  margin: 0px auto;
+	  border: 3px solid  #00FFFF;
+	  border-radius: 50px;
+	  font-family: Snap ITC;
+	}	
+}	
